@@ -97,7 +97,7 @@ export default function ContactSection() {
           </div>
 
           {/* Contact Form */}
-          <div>
+          {/* <div>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
@@ -175,7 +175,7 @@ export default function ContactSection() {
                 Send Message
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

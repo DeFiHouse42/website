@@ -1,26 +1,166 @@
-<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    @media (prefers-color-scheme: light) {
-      .background { fill: black; }
-      .foreground { fill: white; }
-    }
-    @media (prefers-color-scheme: dark) {
-      .background { fill: white; }
-      .foreground { fill: black; }
-    }
-  </style>
-  <g clip-path="url(#clip0_7960_43945)">
-    <rect class="background" width="180" height="180" rx="37" />
-    <g style="transform: scale(95%); transform-origin: center">
-      <path class="foreground"
-        d="M101.141 53H136.632C151.023 53 162.689 64.6662 162.689 79.0573V112.904H148.112V79.0573C148.112 78.7105 148.098 78.3662 148.072 78.0251L112.581 112.898C112.701 112.902 112.821 112.904 112.941 112.904H148.112V126.672H112.941C98.5504 126.672 86.5638 114.891 86.5638 100.5V66.7434H101.141V100.5C101.141 101.15 101.191 101.792 101.289 102.422L137.56 66.7816C137.255 66.7563 136.945 66.7434 136.632 66.7434H101.141V53Z" />
-      <path class="foreground"
-        d="M65.2926 124.136L14 66.7372H34.6355L64.7495 100.436V66.7372H80.1365V118.47C80.1365 126.278 70.4953 129.958 65.2926 124.136Z" />
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="545.11981"
+   height="545.47009"
+   viewBox="0 0 144.22962 144.3223"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="icon.svg"
+   inkscape:export-filename="C:\Users\nadin\OneDrive\Documents\__Business\OatesCapital\defihouse_logo_v1.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="0.47433592"
+     inkscape:cx="360.50401"
+     inkscape:cy="308.85285"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="39"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <sodipodi:guide
+       position="-10.104849,143.53419"
+       orientation="0,-1"
+       id="guide1289" />
+    <sodipodi:guide
+       position="165.21587,33.293154"
+       orientation="0,-1"
+       id="guide11343" />
+    <sodipodi:guide
+       position="0.15013161,112.08603"
+       orientation="1,0"
+       id="guide11345" />
+    <sodipodi:guide
+       position="79.165371,81.426162"
+       orientation="0,-1"
+       id="guide11556" />
+    <sodipodi:guide
+       position="41.93239,101.08852"
+       orientation="1,0"
+       id="guide11596" />
+    <sodipodi:guide
+       position="144.5087,64.058102"
+       orientation="1,0"
+       id="guide22104" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter22428"
+       inkscape:label="filter0">
+      <feGaussianBlur
+         stdDeviation="1"
+         id="feGaussianBlur22430" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-63.35186,-63.305519)">
+    <g
+       id="g48884"
+       inkscape:export-filename="C:\Users\nadin\OneDrive\Documents\__Business\OatesCapital\defihouse_logo_transparent.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <g
+         id="g40824"
+         transform="matrix(1,0,0,1.0090792,-0.30207564,-1.258078)"
+         style="stroke-width:0.995491">
+        <rect
+           style="fill:#2aff80;stroke:#2aff80;stroke-width:1.85659;stroke-linecap:round;stroke-opacity:1"
+           id="rect1199-6"
+           width="19.005318"
+           height="83.007034"
+           x="64.586433"
+           y="89.208092" />
+        <rect
+           style="fill:#2aff80;stroke:#2aff80;stroke-width:1.85659;stroke-linecap:round;stroke-opacity:1"
+           id="rect1201-7"
+           width="19.005318"
+           height="36.940277"
+           x="141.25594"
+           y="64.911133" />
+        <rect
+           style="fill:#2aff80;stroke:#2aff80;stroke-width:1.85659;stroke-linecap:round;stroke-opacity:1"
+           id="rect1203-0"
+           width="19.005318"
+           height="107.30417"
+           x="187.94994"
+           y="64.91098" />
+        <rect
+           style="fill:#2aff80;stroke:#2aff80;stroke-width:1.85659;stroke-linecap:round;stroke-opacity:1"
+           id="rect1205-8"
+           width="46.954315"
+           height="19.596371"
+           x="141.25594"
+           y="109.2435" />
+        <rect
+           style="fill:#2aff80;stroke:#2aff80;stroke-width:1.85659;stroke-linecap:round;stroke-opacity:1"
+           id="rect1207-3"
+           width="19.005318"
+           height="35.953964"
+           x="141.25594"
+           y="136.23207" />
+        <path
+           style="fill:#2aff80;stroke:#2aff80;stroke-width:0.26339px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 89.863614,172.98449 v -17.83541 c 21.143996,0 25.422126,-19.59079 25.408726,-36.75299 -0.0134,-17.1622 -4.26473,-35.746872 -20.728168,-35.746872 -16.463433,0 -30.757945,0 -30.757945,0 V 64.118904 c 0,0 -1.84235,0 30.816665,0 32.659008,0 38.388048,28.091457 38.054388,54.429256 -0.33367,26.3378 -6.84091,54.43633 -42.793666,54.43633 z"
+           id="path1324-3"
+           sodipodi:nodetypes="cczzcczzc" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:21.782px;line-height:1.25;font-family:sans-serif;fill:#2aff80;fill-opacity:1;stroke:#2aff80;stroke-width:0.264582"
+         x="61.031448"
+         y="206.95685"
+         id="text4679-0-4"
+         transform="scale(0.99842907,1.0015734)"><tspan
+           sodipodi:role="line"
+           id="tspan4677-5-5"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.0428px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2aff80;stroke:#2aff80;stroke-width:0.264582"
+           x="61.031448"
+           y="206.95685">DeFi House</tspan></text>
+      <path
+         style="fill:#2aff80;stroke:#2aff80;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 63.35186,179.96191 h 144.2"
+         id="path21545-9" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:18.5996px;line-height:1.25;font-family:sans-serif;fill:#2aff80;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="202.70879"
+         y="142.05766"
+         id="text42478"
+         transform="scale(0.81663171,1.2245422)"><tspan
+           sodipodi:role="line"
+           id="tspan42476"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.7594px;font-family:'Freestyle Script';-inkscape-font-specification:'Freestyle Script, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2aff80;fill-opacity:1;stroke-width:0.264583"
+           x="202.70879"
+           y="142.05766">42</tspan></text>
     </g>
   </g>
-  <defs>
-    <clipPath id="clip0_7960_43945">
-      <rect width="180" height="180" fill="white" />
-    </clipPath>
-  </defs>
 </svg>

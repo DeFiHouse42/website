@@ -27,19 +27,19 @@ export default function Navigation() {
   return (
     <nav className="fixed top-0 w-full bg-black/95 backdrop-blur border-b border-green-900/30 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="#home" onClick={() => scrollToSection("home")} className="flex items-center gap-2 group">
-            <div className="w-10 h-10 relative">
+            <div className="w-16 h-16 relative">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/defihouse_logo_v1_round-dZ0H08gisK33TkjL54Sy5QxRqOuuAK.png"
+                src="/defihouse_logo_v1_round.png"
                 alt="DeFi House Logo"
-                width={40}
-                height={40}
+                width={64}
+                height={64}
                 className="group-hover:brightness-125 transition-all"
               />
             </div>
-            <span className="font-bold text-lg text-green-400">DeFi House</span>
+            <span className="font-bold text-2xl text-green-400">DeFi House 42</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -48,7 +48,7 @@ export default function Navigation() {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-gray-300 hover:text-green-400 transition-colors text-sm font-medium"
+                className="text-gray-300 hover:text-green-400 transition-colors text-lg font-medium"
               >
                 {item.label}
               </button>

@@ -1,3 +1,5 @@
+import { socialLinks, socials } from "@/lib/social-links"
+
 export default function Footer() {
   const currentYear = new Date().getFullYear()
 
@@ -17,34 +19,45 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-gray-400">
               <li>
                 <a
-                  href="https://x.com"
+                  href={socials.x.url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-green-400 transition-colors"
                 >
-                  X (Twitter)
+                  {socials.x.name + " (Twitter)"}
                 </a>
               </li>
               <li>
                 <a
-                  href="https://t.me"
+                  href={socials.telegram.url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-green-400 transition-colors"
                 >
-                  Telegram
+                  {socials.telegram.name}
                 </a>
               </li>
               <li>
                 <a
-                  href="https://discord.gg"
+                  href={socials.linkedin.url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-green-400 transition-colors"
                 >
-                  Discord
+                  {socials.linkedin.name}
                 </a>
               </li>
+              <li>
+                <a
+                  href={socials.github.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-green-400 transition-colors"
+                >
+                  {socials.github.name}
+                </a>
+              </li>
+
             </ul>
           </div>
 
@@ -62,9 +75,10 @@ export default function Footer() {
                   Launchpad
                 </a>
               </li>
+
               <li>
-                <a href="#products" className="hover:text-green-400 transition-colors">
-                  Prediction Market
+                <a href={socials.github.url} className="hover:text-green-400 transition-colors">
+                  Docs
                 </a>
               </li>
             </ul>
