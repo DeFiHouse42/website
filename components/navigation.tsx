@@ -48,7 +48,7 @@ export default function Navigation() {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-gray-300 hover:text-green-400 transition-colors text-lg font-medium"
+                className="text-gray-300 hover:text-green-400 transition-colors text-lg font-medium cursor-pointer"
               >
                 {item.label}
               </button>
