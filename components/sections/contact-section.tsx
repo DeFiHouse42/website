@@ -60,7 +60,7 @@ export default function ContactSection() {
               </div>
 
               <div className="bg-green-400/10 border border-green-400/30 rounded-lg p-6 mt-8">
-                <Link href="#events">
+                <Link href="#partnerships">
                   <p className="text-sm text-gray-300">
                     <span className="text-green-400 font-semibold">Chicago Based:</span> Join us for monthly in-person
                     events and workshops. Looking to partner? Reach out!
