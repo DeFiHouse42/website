@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="bg-black border-t border-green-900/30 py-12">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
             <h3 className="font-bold text-green-400 mb-4">DeFi House</h3>

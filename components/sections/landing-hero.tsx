@@ -6,7 +6,7 @@ export default function LandingHero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center pt-16 bg-black relative overflow-hidden"
+      className="min-h-screen flex items-center justify-center pt-32 lg:pt-16 bg-black relative overflow-hidden"
     >
       {/* Gradient background */}
       <div className="absolute inset-0 bg-gradient-to-br from-green-400/5 via-black to-black opacity-50"></div>

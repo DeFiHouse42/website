@@ -33,22 +33,26 @@ export default function PartnershipsSection() {
         </div>
 
         {/* Partners */}
-        {/* <div className="mb-16">
-          <h3 className="text-2xl font-bold mb-8 text-white">Partners</h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-            {partners.map((partner, idx) => (
-              <div
-                key={idx}
-                className="bg-gray-800/40 border border-green-400/20 rounded-lg p-6 text-center hover:border-green-400/50 transition-all"
-              >
-                <p className="font-semibold text-white mb-1">{partner.name}</p>
-                <p className="text-xs text-green-400">{partner.category}</p>
-              </div>
-            ))}
-          </div>
-        </div> */}
+        <div className="mb-16">
+          <h3 className="text-2xl font-bold mb-8 text-white">Let's Collaborate</h3>
+          <div className="grid grid-cols-2 gap-4">
 
-        <div className=" pt-16">
+            <div>
+              <p className="text-gray-400 mb-6">
+                Have an idea how we can collaborate and support each other? Reach out to explore partnership opportunities!
+              </p>
+              <p className="font-semibold text-white mb-1">Email</p>
+              <a
+                href="mailto:contact@defihouse.io"
+                className="text-gray-400 hover:text-green-400 transition-colors"
+              >
+                contact@defihouse42.com
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="mb-16">
           <div className="grid md:grid-cols-2 gap-12">
             {/* Sponsors */}
             {/* <div>
