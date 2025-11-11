@@ -33,7 +33,7 @@ export default function ContactSection() {
                 <div>
                   <p className="font-semibold text-white mb-1">Email</p>
                   <a
-                    href="mailto:contact@defihouse.io"
+                    href="mailto:contact@defihouse42.com"
                     className="text-gray-400 hover:text-green-400 transition-colors"
                   >
                     contact@defihouse42.com
