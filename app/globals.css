@@ -7,6 +7,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 :root {
   /* Dark theme with neon green accents */
   --background: rgb(0 0 0);
@@ -78,6 +79,7 @@ html {
   --sidebar-border: oklch(0.269 0 0);
   --sidebar-ring: oklch(0.439 0 0);
 }
+
 
 @theme inline {
   /* optional: --font-sans, --font-serif, --font-mono if they are applied in the layout.tsx */

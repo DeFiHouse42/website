@@ -1,38 +1,17 @@
 'use client'
-import { useEffect } from 'react'
-
-declare global {
-    interface Window {
-        twttr?: {
-            widgets: {
-                load: (element?: HTMLElement) => void
-            }
-        }
-    }
-}
+import { useEffect, useState } from 'react'
+import { Tweet } from 'react-tweet'
 
 export default function LatestTweet() {
+    const [tweetId, setTweetId] = useState<string | null>(null)
+
     useEffect(() => {
-        // ensure script loads only once
-        if (!window.twttr) {
-            const script = document.createElement('script')
-            script.src = 'https://platform.twitter.com/widgets.js'
-            script.async = true
-            document.body.appendChild(script)
-        } else {
-            window.twttr.widgets.load()
-        }
+
+        //https://x.com/defihouse42/status/1971388564039418295?s=20
+        // https://x.com/defihouse42/status/1986502197421764895?s=20
+        setTweetId("1971388564039418295") // example ID
     }, [])
 
-    return (
-        <a
-            className="twitter-timeline"
-            data-tweet-limit="1"
-            data-chrome="noheader nofooter noborders transparent"
-            data-theme="dark"
-            href="https://x.com/DeFiHouse42"
-        >
-            Tweets by DeFiHouse42
-        </a>
-    )
+    if (!tweetId) return null
+    return <Tweet id={tweetId} />
 }
