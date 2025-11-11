@@ -74,7 +74,7 @@ export default function ContactSection() {
 
           {/* Latest Tweet Embed */}
           <div>
-            <h3 className="text-2xl font-bold mb-4 text-white">Follow us on X</h3>
+            <h3 className="text-2xl font-bold mb-4 text-white">Follow Us On X</h3>
 
             <div className="max-h-[320px] overflow-hidden relative text-sm">
               <div className="w-full [&_*]:!text-sm">
