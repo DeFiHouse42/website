@@ -21,9 +21,9 @@ export default function PartnershipsSection() {
   return (
     <section
       id="partnerships"
-      className="h-fit py-20 bg-gradient-to-b from-black to-gray-900/20 border-t border-green-900/30"
+      className="min-h-screen py-20 bg-gradient-to-b from-black to-gray-900/20 border-t border-green-900/30 flex"
     >
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl m-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="text-white">Partnerships & </span>
@@ -33,7 +33,7 @@ export default function PartnershipsSection() {
         </div>
 
         {/* Partners */}
-        <div className="mb-16">
+        {/* <div className="mb-16">
           <h3 className="text-2xl font-bold mb-8 text-white">Partners</h3>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
             {partners.map((partner, idx) => (
@@ -46,12 +46,12 @@ export default function PartnershipsSection() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
-        <div className="border-t border-green-900/30 pt-16">
+        <div className=" pt-16">
           <div className="grid md:grid-cols-2 gap-12">
             {/* Sponsors */}
-            <div>
+            {/* <div>
               <h3 className="text-2xl font-bold mb-8 text-white">Current Sponsors</h3>
               <div className="space-y-3 mb-8">
                 {sponsors.map((sponsor, idx) => (
@@ -66,7 +66,7 @@ export default function PartnershipsSection() {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
 
             {/* Sponsorship Package */}
             <div>

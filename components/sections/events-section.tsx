@@ -1,4 +1,5 @@
 import { Calendar, Users, Radio } from "lucide-react"
+import { socials } from "@/lib/social-links"
 
 export default function EventsSection() {
   const events = [
@@ -10,7 +11,7 @@ export default function EventsSection() {
       frequency: "Every 2nd Thursday",
       platform: "Chicago",
       action: "View on Luma",
-      link: "https://lu.ma",
+      link: socials.events.url,
     },
     {
       type: "X Space",
@@ -20,7 +21,7 @@ export default function EventsSection() {
       frequency: "Every Tuesday @ 1 PM CST",
       platform: "X (Twitter)",
       action: "Join Space",
-      link: "https://x.com",
+      link: socials.x.url,
     },
     {
       type: "Telegram Call",
@@ -30,13 +31,13 @@ export default function EventsSection() {
       frequency: "Every Thursday @ 9 PM CST",
       platform: "Telegram",
       action: "Join Call",
-      link: "t.me/DEFIHOUSELOUNGE",
+      link: socials.lounge.url,
     },
   ]
 
   return (
-    <section id="events" className="h-fit py-20 bg-black border-t border-green-900/30">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="events" className="min-h-screen py-20 bg-black border-t border-green-900/30 flex">
+      <div className="max-w-6xl m-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="text-white">Upcoming </span>

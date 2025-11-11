@@ -1,4 +1,4 @@
-import { Zap, Rocket, TrendingUp, Banknote } from "lucide-react"
+import { ChevronsLeftRightEllipsis, Rocket, TrendingUp, Banknote } from "lucide-react"
 
 export default function ProductsSection() {
   const products = [
@@ -19,7 +19,7 @@ export default function ProductsSection() {
     },
 
     {
-      icon: <Zap className="w-12 h-12" />,
+      icon: <ChevronsLeftRightEllipsis className="w-12 h-12" />,
       title: "Token Bridge",
       description: "A robust token bridge for seamless asset transfers across chains",
       status: "In Development",
@@ -35,8 +35,8 @@ export default function ProductsSection() {
   ]
 
   return (
-    <section id="products" className="min-h-screen py-20 bg-black border-t border-green-900/30">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="products" className="min-h-screen py-20 bg-black border-t border-green-900/30 flex">
+      <div className="max-w-6xl m-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="text-white">DeFi House </span>

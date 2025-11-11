@@ -48,6 +48,7 @@ export const socialLinks = [
 export const socials = {
     x: { name: "X", url: "https://x.com/defihouse42", icon: <XIcon /> },
     telegram: { name: "Telegram", url: "https://t.me/DEFIHOUSE42", icon: <TelegramIcon /> },
+    lounge: { name: "Telegram", url: "https://t.me/DEFIHOUSELOUNGE", icon: <TelegramIcon /> },
     linkedin: { name: "LinkedIn", url: "https://www.linkedin.com/showcase/defi-house-42", icon: <LinkedInIcon /> },
     youtube: { name: "YouTube", url: "https://www.youtube.com/@defihouse42", icon: <YouTubeIcon /> },
     events: { name: "Events", url: "https://luma.com/defihouse42", icon: <LumaIcon /> },
