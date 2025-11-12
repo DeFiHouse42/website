@@ -1,7 +1,17 @@
 import { Calendar, Users, Radio } from "lucide-react"
 import { socials } from "@/lib/social-links"
+import { useEffect, useState } from "react"
+import { kv } from "@vercel/kv";
 
 export default function EventsSection() {
+  const [xSpaceUrl, setXSpaceUrl] = useState<string>(socials.x.url);
+
+  useEffect(() => {
+    fetch("/api/next-x-space").then((response) => response.json()).then((data) => {
+      setXSpaceUrl(data.space_url);
+    });
+  }, [])
+
   const events = [
     {
       type: "In-Person Event",
@@ -64,7 +74,7 @@ export default function EventsSection() {
               </div>
 
               <a
-                href={event.link}
+                href={event.platform == "X (Twitter)" ? xSpaceUrl : event.link}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-4 py-2 bg-green-400/10 border border-green-400 text-green-400 font-semibold rounded hover:bg-green-400/20 transition-all"
