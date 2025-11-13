@@ -17,11 +17,13 @@ export default function Navigation() {
   }
 
   const navItems = [
-    { label: "Home", id: "home" },
-    { label: "Events", id: "events" },
-    { label: "Partnerships", id: "partnerships" },
-    { label: "Products", id: "products" },
-    { label: "Contact", id: "contact" },
+    { label: "Home", id: "home", type: "section" },
+    { label: "Whitepaper", id: "/pdfs/defihouse_whitepaper.pdf", type: "link" },
+    { label: "Events", id: "events", type: "section" },
+    { label: "Partnerships", id: "partnerships", type: "section" },
+    { label: "Products", id: "products", type: "section" },
+    { label: "Contact", id: "contact", type: "section" },
+
   ]
 
   return (
@@ -45,13 +47,25 @@ export default function Navigation() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex gap-8">
             {navItems.map((item) => (
-              <button
-                key={item.id}
-                onClick={() => scrollToSection(item.id)}
-                className="text-gray-300 hover:text-green-400 transition-colors text-lg font-medium cursor-pointer"
-              >
-                {item.label}
-              </button>
+              item.type === "link" ? (
+                <a
+                  key={item.id}
+                  href={item.id}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-green-400 transition-colors text-lg font-medium cursor-pointer"
+                >
+                  {item.label}
+                </a>
+              ) : (
+                <button
+                  key={item.id}
+                  onClick={() => scrollToSection(item.id)}
+                  className="text-gray-300 hover:text-green-400 transition-colors text-lg font-medium cursor-pointer"
+                >
+                  {item.label}
+                </button>
+              )
             ))}
           </div>
 
@@ -65,13 +79,25 @@ export default function Navigation() {
         {isOpen && (
           <div className="md:hidden pb-4 space-y-2">
             {navItems.map((item) => (
-              <button
-                key={item.id}
-                onClick={() => scrollToSection(item.id)}
-                className="block w-full text-left px-4 py-2 text-gray-300 hover:text-green-400 hover:bg-green-400/10 rounded transition-colors"
-              >
-                {item.label}
-              </button>
+              item.type === "link" ? (
+                <a
+                  key={item.id}
+                  href={item.id}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full text-left px-4 py-2 text-gray-300 hover:text-green-400 hover:bg-green-400/10 rounded transition-colors"
+                >
+                  {item.label}
+                </a>
+              ) : (
+                <button
+                  key={item.id}
+                  onClick={() => scrollToSection(item.id)}
+                  className="block w-full text-left px-4 py-2 text-gray-300 hover:text-green-400 hover:bg-green-400/10 rounded transition-colors"
+                >
+                  {item.label}
+                </button>
+              )
             ))}
           </div>
         )}
