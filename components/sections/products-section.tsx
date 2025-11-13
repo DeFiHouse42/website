@@ -22,15 +22,15 @@ export default function ProductsSection() {
       icon: <ChevronsLeftRightEllipsis className="w-12 h-12" />,
       title: "Token Bridge",
       description: "A robust token bridge for seamless asset transfers across chains",
-      status: "In Development",
-      features: ["Fast", "Reliable", "Cheap"],
+      status: "Planned",
+      features: ["Fast", "Reliable", "Secure"],
     },
     {
-      icon: <TrendingUp className="w-12 h-12" />,
-      title: "Prediction Market",
-      description: "Decentralized prediction market for crypto and DeFi outcomes",
-      status: "In Development",
-      features: ["Price Predictions", "Event Markets", "Real-time Rewards"],
+      icon: <Banknote className="w-12 h-12" />,
+      title: "Lending Protocol",
+      description: "Cross-chain lending platform for crypto and DeFi assets",
+      status: "Planned",
+      features: ["Cross-chain", "Time/Price-based Lending", "Collateralized"],
     },
   ]
 
