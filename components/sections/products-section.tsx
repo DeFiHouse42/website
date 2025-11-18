@@ -1,37 +1,37 @@
-import { ChevronsLeftRightEllipsis, Rocket, TrendingUp, Banknote } from "lucide-react"
+import { ChevronsLeftRightEllipsis, Banknote, GraduationCap, Coins, Handshake } from "lucide-react"
 
 export default function ProductsSection() {
   const products = [
     {
-      icon: <Banknote className="w-12 h-12" />,
+      icon: <GraduationCap className="w-12 h-12" />,
+      title: "DeFi Education",
+      description: "Workshops and resources to educate the next generation of DeFi enthusiasts",
+      status: "Active",
+      features: ["In-person Workshops", "Community Q&A", "Video Streams"],
+    },
+    {
+      icon: <Coins className="w-12 h-12" />,
       title: "DFH Token",
       description: "The native token of DeFi House ecosystem, enabling governance and participation",
       ticker: "DFH",
       status: "Launching Soon",
-      features: ["Liquidity", "Governance", "Staking", "Community Rewards"],
-    },
-    {
-      icon: <Rocket className="w-12 h-12" />,
-      title: "Token Launchpad",
-      description: "A platform for launching and trading new DeFi projects and tokens",
-      status: "In Development",
-      features: ["Project Listings", "Private & Public Sales", "Cross-chain Mechanics", "Community Incentives"],
-    },
-
-    {
-      icon: <ChevronsLeftRightEllipsis className="w-12 h-12" />,
-      title: "Token Bridge",
-      description: "A robust token bridge for seamless asset transfers across chains",
-      status: "Planned",
-      features: ["Fast", "Reliable", "Secure"],
+      features: ["Staking", "Community Rewards", "Governance"],
     },
     {
       icon: <Banknote className="w-12 h-12" />,
-      title: "Lending Protocol",
+      title: "P2P Lending Protocol",
       description: "Cross-chain lending platform for crypto and DeFi assets",
-      status: "Planned",
-      features: ["Cross-chain", "Time/Price-based Lending", "Collateralized"],
+      status: "In Development",
+      features: ["Cross-chain", "Time-based Liquidations", "Fixed-term", "Over-Collateralized"],
     },
+    {
+      icon: <Handshake className="w-12 h-12" />,
+      title: "DAO Governance",
+      description: "A robust framework for decentralized governance and decision-making",
+      status: "Planned",
+      features: ["Voting Mechanism", "Community Incentives", "Treasury Management"],
+    },
+
   ]
 
   return (

@@ -18,7 +18,7 @@ export default function Navigation() {
 
   const navItems = [
     { label: "Home", id: "home", type: "section" },
-    { label: "Whitepaper", id: "/pdfs/defihouse_whitepaper.pdf", type: "link" },
+    { label: "Docs", id: "https://defihouse42.gitbook.io/docs/", type: "link" },
     { label: "Events", id: "events", type: "section" },
     { label: "Partnerships", id: "partnerships", type: "section" },
     { label: "Products", id: "products", type: "section" },
