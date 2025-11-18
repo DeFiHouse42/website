@@ -66,18 +66,23 @@ export default function Footer() {
             <h4 className="font-semibold text-white mb-4">Products</h4>
             <ul className="space-y-2 text-sm text-gray-400">
               <li>
+                <a href="#events" className="hover:text-green-400 transition-colors">
+                  DeFi Education
+                </a>
+              </li>
+              <li>
                 <a href="#products" className="hover:text-green-400 transition-colors">
                   DFH Token
                 </a>
               </li>
               <li>
                 <a href="#products" className="hover:text-green-400 transition-colors">
-                  Launchpad
+                  P2P Lending Protocol
                 </a>
               </li>
 
               <li>
-                <a href={socials.github.url} className="hover:text-green-400 transition-colors">
+                <a href="https://defihouse42.gitbook.io/docs/" className="hover:text-green-400 transition-colors">
                   Docs
                 </a>
               </li>
