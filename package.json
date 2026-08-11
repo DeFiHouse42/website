@@ -9,7 +9,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@vercel/analytics": "latest",
+    "@vercel/analytics": "^2.0.1",
     "@vercel/kv": "^3.0.0",
     "autoprefixer": "^10.4.20",
     "clsx": "^2.1.1",
