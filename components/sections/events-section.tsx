@@ -1,3 +1,5 @@
+"use client"
+
 import { Calendar, Users, Radio } from "lucide-react"
 import { socials } from "@/lib/social-links"
 import { useEffect, useState } from "react"
