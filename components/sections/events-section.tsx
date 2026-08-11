@@ -3,7 +3,6 @@
 import { Calendar, Users, Radio } from "lucide-react"
 import { socials } from "@/lib/social-links"
 import { useEffect, useState } from "react"
-import { kv } from "@vercel/kv";
 
 export default function EventsSection() {
   const [xSpaceUrl, setXSpaceUrl] = useState<string>(socials.x.url);
